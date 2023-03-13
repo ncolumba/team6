@@ -35,5 +35,9 @@ def signup2():  # put application's code here
 def changepassword():  # put application's code here
     return render_template('changepassword.html')
 
+@app.route('/taskmanager')
+def taskmanager():  # put application's code here
+    return render_template('taskmanager.html')
+
 if __name__ == '__main__':
     app.run()
