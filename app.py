@@ -39,5 +39,9 @@ def changepassword():  # put application's code here
 def taskmanager():  # put application's code here
     return render_template('taskmanager.html')
 
+@app.route('/dailyschedule')
+def dailyschedule():  # put application's code here
+    return render_template('dailyschedule.html')
+
 if __name__ == '__main__':
     app.run()
