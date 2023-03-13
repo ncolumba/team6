@@ -23,5 +23,9 @@ def home():  # put application's code here
 def signin():  # put application's code here
     return render_template('signin.html')
 
+@app.route('/signup1')
+def signup1():  # put application's code here
+    return render_template('signup1.html')
+
 if __name__ == '__main__':
     app.run()
