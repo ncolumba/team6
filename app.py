@@ -31,5 +31,9 @@ def signup1():  # put application's code here
 def signup2():  # put application's code here
     return render_template('signup2.html')
 
+@app.route('/changepassword')
+def changepassword():  # put application's code here
+    return render_template('changepassword.html')
+
 if __name__ == '__main__':
     app.run()
